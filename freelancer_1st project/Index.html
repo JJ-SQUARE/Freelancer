@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/pug-icon.ico">
+    <title>Web designer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="head-title">Juan José Huerta <span>Freelancer</span></h1>
+    </header>
+    <div class="mainnavbg">
+        <nav class="main-nav container">
+            <a href="index.html" Alt="Home" Title="Home">Home</a>
+            <a href="projects.html" Alt="My projects" Title="My projects">My projects</a>
+            <a href="aboutme.html"Alt="About me" Title="About me">About me</a>
+            <a href="contact.html"Alt="Contact" Title="Contact">Contact</a>
+        </nav>
+    </div>
+        <section class="hero">
+        <div class="content-hero">
+            <h2>Web Design & Development freelancer</h2>
+                <div class=location>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#283792" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <p>Veracruz, Mexico</p>
+                </div>
+            <a class="button" id="contactbutton" href="contact.html">Contact</a>
+        </div><!--content-hero-->
+    </section>
+   <main class="container shadow">
+        <h2>My Services</h2>
+            <div class="services">
+                <section class="topservices">
+                    <h3>Web Design</h3>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brush" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                                <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                                <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                                <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                            </svg>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </section>
+                <section class="topservices">
+                    <h3>Web Apps</h3>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="4" y="4" width="6" height="6" rx="1" />
+                                <rect x="4" y="14" width="6" height="6" rx="1" />
+                                <rect x="14" y="14" width="6" height="6" rx="1" />
+                                <line x1="14" y1="7" x2="20" y2="7" />
+                                <line x1="17" y1="4" x2="17" y2="10" />
+                            </svg>
+                        </div>    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </section>
+                <section class="topservices">
+                    <h3>E-Commerce</h3>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="19" r="2" />
+                                <circle cx="17" cy="19" r="2" />
+                                <path d="M17 17h-11v-14h-2" />
+                                <path d="M6 5l14 1l-1 7h-13" />
+                            </svg>
+                        </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </section>
+            </div><!--SERVICIOS HASTA AQUI-->
+        <section class="contact">
+                <h2 class="container">Contact</h2>
+                    <form class="form">
+                        <fieldset>
+                            <legend>Please, leave your contact details</legend>
+                            <div class=field-distribution>
+                                <div class="fields">
+                                    <label>First name</label>
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="fields">
+                                    <label>Second name</label>
+                                    <input type="text" placeholder="Second name">
+                                </div>
+                                <div class="fields">
+                                    <label>Phone</label>
+                                    <input type="tel" placeholder="Phone number">
+                                </div>
+                                <div class="fields">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="fields">
+                                    <label>Message</label>
+                                    <textarea placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                                <div class="align-right flex">
+                                    <input class="button total-width" type="submit" value="Send">            
+                                </div>
+                        </fieldset>
+                    </form>
+         </section>
+    </main>
+   <footer class="container footer">
+        <p>All rights reserved. Juan José Huerta 2022</p>
+   </footer>
+</body>
+</html>
